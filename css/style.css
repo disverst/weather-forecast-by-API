@@ -1,0 +1,193 @@
+@charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: '';
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  color: #000;
+  font-size: 14px;
+}
+body.lock {
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 1182px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+
+.h1-title {
+  font-size: 30px;
+  color: #000;
+
+  text-align: center;
+  margin-top: 30px;
+}
+.weather-block {
+  background-color: rgb(128, 128, 122);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  font-size: 16px;
+  text-align: center;
+
+  margin: 30px auto;
+  padding: 30px;
+
+  max-width: 300px;
+  height: 100%;
+
+  border: 2px solid#000;
+  border-radius: 50px;
+}
+
+.city-title {
+  font-size: 45px;
+  font-weight: 500;
+  color: rgb(45, 197, 7);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.h-line {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.212);
+
+  margin: 15px 0;
+}
+
+.select select {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(45, 197, 7);
+
+  border: 2px solid #000;
+  border-radius: 20px;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  padding: 5px 15px;
+}
+
+ul li {
+  font-size: 17px;
+  font-weight: 600;
+}
+ul li span {
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.tempr {
+  font-size: 50px;
+}
+.img {
+  height: 100px;
+}
